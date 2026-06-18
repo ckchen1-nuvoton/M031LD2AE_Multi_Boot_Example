@@ -6,7 +6,7 @@ Boot0 (Code0): Located at base 0x0000_0000 (Size: 32KB)
 Boot1 (Code1): Base offset at 0x8000 (Size: 32KB)   
 Bootcode (LDROM): Located at 0x0010_0000 (Size: 2KB)   
 
-	<img width="60%" alt="image" src="https://github.com/user-attachments/assets/145d7222-ce40-45b3-9ba9-3f056929eb6a" />
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/145d7222-ce40-45b3-9ba9-3f056929eb6a" />
 
 1. Compilation Steps (in Keil)
 	Select and compile FMC_Boot0 to generate FMC_Boot0.bin.  
@@ -30,6 +30,7 @@ Bootcode (LDROM): Located at 0x0010_0000 (Size: 2KB)
 	In the Programming section, check APROM, LDROM, and Config, then click Start to burn the firmware.  
 
 	<img width="40%" alt="image" src="https://github.com/user-attachments/assets/f2c6af45-c8ba-4276-9f0a-3e4060a5328f" />
+	
 	<img width="40%" alt="image" src="https://github.com/user-attachments/assets/1a85c665-0b2c-41cf-92f9-dbf76793f45e" />
 
 
