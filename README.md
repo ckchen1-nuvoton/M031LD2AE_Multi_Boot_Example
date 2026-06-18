@@ -1,6 +1,7 @@
 # M031LD2AE_Multi_Boot_Example
 
 Implement a multi-boot system to boot from different applications in APROM
+
 The system allocates the 64KB APROM into two equal 32KB partitions:  
 Boot0 (Code0): Located at base 0x0000_0000 (Size: 32KB)   
 Boot1 (Code1): Base offset at 0x8000 (Size: 32KB)   
