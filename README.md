@@ -34,6 +34,7 @@ Bootcode (LDROM): Located at 0x0010_0000 (Size: 2KB)
 	In the Programming section, check APROM, LDROM, and Config, then click Start to burn the firmware.  
 
 	<img width="40%" alt="image" src="https://github.com/user-attachments/assets/f2c6af45-c8ba-4276-9f0a-3e4060a5328f" />
+
 	
 	<img width="40%" alt="image" src="https://github.com/user-attachments/assets/1a85c665-0b2c-41cf-92f9-dbf76793f45e" />
 
