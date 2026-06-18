@@ -772,7 +772,7 @@
               <MiscControls></MiscControls>
               <Define>__BOOT1__</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\..\Library\Device\Nuvoton\M031\Include;..\..\..\..\Library\CMSIS\Core\Include;..\..\..\..\Library\StdDriver\inc</IncludePath>
+              <IncludePath>..\..\..\Library\Device\Nuvoton\M031\Include;..\..\..\Library\CMSIS\Core\Include;..\..\..\Library\StdDriver\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1204,7 +1204,7 @@
               <MiscControls></MiscControls>
               <Define>__LDROM__</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\..\Library\Device\Nuvoton\M031\Include;..\..\..\..\Library\CMSIS\Core\Include;..\..\..\..\Library\StdDriver\inc</IncludePath>
+              <IncludePath>..\..\..\Library\Device\Nuvoton\M031\Include;..\..\..\Library\CMSIS\Core\Include;..\..\..\Library\StdDriver\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
