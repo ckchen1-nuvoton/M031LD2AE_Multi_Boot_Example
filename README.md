@@ -13,7 +13,7 @@ Bootcode (LDROM): Located at 0x0010_0000 (Size: 2KB)
 	Select and compile FMC_Boot1 to generate FMC_Boot1.bin.  
 	Select and compile FMC_BootLD to generate FMC_BootLD.bin.
 
-<img width="60%" alt="image" src="https://github.com/user-attachments/assets/57dcfe72-600b-4b80-91e9-b91015da3422" />
+<img width="30%" alt="image" src="https://github.com/user-attachments/assets/57dcfe72-600b-4b80-91e9-b91015da3422" />
 
 3. Programming via NuMicro ICP Tool 
 	Open the ICP Tool and enable Multi-File Mode.  
@@ -23,7 +23,7 @@ Bootcode (LDROM): Located at 0x0010_0000 (Size: 2KB)
 	Click on LDROM and import FMC_BootLD.bin.
 
 <img width="60%" alt="image" src="https://github.com/user-attachments/assets/6ff175a4-7757-4f8e-98a8-5ce45635ea26" />
-<img width="60%" alt="image" src="https://github.com/user-attachments/assets/fcde6e03-ee33-449f-997f-8689e2210695" />
+<img width="40%" alt="image" src="https://github.com/user-attachments/assets/fcde6e03-ee33-449f-997f-8689e2210695" />
 
 
 	Go to Config Bits / Setting and set the Chip Booting Selection to LDROM with IAP. 
@@ -35,5 +35,5 @@ Bootcode (LDROM): Located at 0x0010_0000 (Size: 2KB)
 
 5. Execution Results
 
-<img width="60%" alt="image" src="https://github.com/user-attachments/assets/749eebfd-d99a-4b1e-bf10-0825df3da901" />
+<img width="40%" alt="image" src="https://github.com/user-attachments/assets/749eebfd-d99a-4b1e-bf10-0825df3da901" />
    
