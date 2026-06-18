@@ -13,7 +13,7 @@ Bootcode (LDROM): Located at 0x0010_0000 (Size: 2KB)
 	Select and compile FMC_Boot1 to generate FMC_Boot1.bin.  
 	Select and compile FMC_BootLD to generate FMC_BootLD.bin.
 
-<img width="677" height="214" alt="image" src="https://github.com/user-attachments/assets/57dcfe72-600b-4b80-91e9-b91015da3422" />
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/57dcfe72-600b-4b80-91e9-b91015da3422" />
 
 3. Programming via NuMicro ICP Tool 
 	Open the ICP Tool and enable Multi-File Mode.  
@@ -22,18 +22,18 @@ Bootcode (LDROM): Located at 0x0010_0000 (Size: 2KB)
 	Import FMC_Boot1.bin with offset 0x8000.  
 	Click on LDROM and import FMC_BootLD.bin.
 
-<img width="790" height="400" alt="image" src="https://github.com/user-attachments/assets/6ff175a4-7757-4f8e-98a8-5ce45635ea26" />
-<img width="549" height="424" alt="image" src="https://github.com/user-attachments/assets/fcde6e03-ee33-449f-997f-8689e2210695" />
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/6ff175a4-7757-4f8e-98a8-5ce45635ea26" />
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/fcde6e03-ee33-449f-997f-8689e2210695" />
 
 
 	Go to Config Bits / Setting and set the Chip Booting Selection to LDROM with IAP. 
 	In the Programming section, check APROM, LDROM, and Config, then click Start to burn the firmware.  
 
-  <img width="606" height="264" alt="image" src="https://github.com/user-attachments/assets/f2c6af45-c8ba-4276-9f0a-3e4060a5328f" />
-  <img width="904" height="134" alt="image" src="https://github.com/user-attachments/assets/1a85c665-0b2c-41cf-92f9-dbf76793f45e" />
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/f2c6af45-c8ba-4276-9f0a-3e4060a5328f" />
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/1a85c665-0b2c-41cf-92f9-dbf76793f45e" />
 
 
 5. Execution Results
 
-   <img width="412" height="767" alt="image" src="https://github.com/user-attachments/assets/749eebfd-d99a-4b1e-bf10-0825df3da901" />
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/749eebfd-d99a-4b1e-bf10-0825df3da901" />
    
