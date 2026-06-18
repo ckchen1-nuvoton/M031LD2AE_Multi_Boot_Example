@@ -10,13 +10,15 @@ Bootcode (LDROM): Located at 0x0010_0000 (Size: 2KB)
 <img width="60%" alt="image" src="https://github.com/user-attachments/assets/145d7222-ce40-45b3-9ba9-3f056929eb6a" />
 
 1. Compilation Steps (in Keil)
+   
 	Select and compile FMC_Boot0 to generate FMC_Boot0.bin.  
 	Select and compile FMC_Boot1 to generate FMC_Boot1.bin.  
 	Select and compile FMC_BootLD to generate FMC_BootLD.bin.
 
 	<img width="30%" alt="image" src="https://github.com/user-attachments/assets/57dcfe72-600b-4b80-91e9-b91015da3422" />
 
-3. Programming via NuMicro ICP Tool 
+3. Programming via NuMicro ICP Tool
+   
 	Open the ICP Tool and enable Multi-File Mode.  
 	Click on APROM and import the binary files:   
 	Import FMC_Boot0.bin with offset 0x0.  
@@ -27,7 +29,8 @@ Bootcode (LDROM): Located at 0x0010_0000 (Size: 2KB)
 	<img width="40%" alt="image" src="https://github.com/user-attachments/assets/fcde6e03-ee33-449f-997f-8689e2210695" />
 
 
-	Go to Config Bits / Setting and set the Chip Booting Selection to LDROM with IAP. 
+	Go to Config Bits / Setting and set the Chip Booting Selection to LDROM with IAP.
+
 	In the Programming section, check APROM, LDROM, and Config, then click Start to burn the firmware.  
 
 	<img width="40%" alt="image" src="https://github.com/user-attachments/assets/f2c6af45-c8ba-4276-9f0a-3e4060a5328f" />
